@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Box-Floating</title>
+        <link rel="stylesheet" href="normalize.css">
+        <style class="editable">
+        .container{height: 70vh;}
+        .box{
+            padding:25px;
+            text-align: center;
+            color: white;
+            width:825px;
+            
+        }
+        #box1{
+            background-color: teal;
+
+        }
+        #box2{
+            background-color: rgb(30, 146, 107);
+            float:left;
+            height:410px;
+            width:90px;
+        }
+        #box3{
+            background-color: rgb(115, 202, 173);
+            height:410px;
+        }
+        #box4{
+            background-color: rgb(21, 109, 80);
+
+        }
+        </style>
+    </head>
+    <body>
+        <h2>Pop-Up Exercise: Float and Clear</h2>
+        <p>"Your task is to you have create the given layout using float and clear properties out of the 4 boxes in the preview."</p>
+        <strong>Desired Output:</strong>
+        <br>
+        <img src="flayout.jpg" alt "float and clear layout">
+        <br>
+        <strong>My Output:</strong>
+        <br>
+        <section class="preview">
+            <div class="container">
+                <div class="box" id="box1">header</div>   
+                <div class="box" id="box2">sidebar</div>   
+                <div class="box" id="box3">content</div>   
+                <div class="box" id="box4">footer</div> 
+            </div>
+        </section>
+    </body>
+</html>
